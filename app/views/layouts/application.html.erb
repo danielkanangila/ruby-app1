@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <nav>
+      <li><%= link_to "Hello", greeter_hello_path %></li>
+      <li><%= link_to "Goodbye", greeter_goodbye_path %></li>
+      <li><%= link_to "Countries", countries_index_path %></li>
+    </nav>
     <%= yield %>
   </body>
 </html>
